@@ -1,8 +1,13 @@
 body {
     background-color: #eee;
 }
+.fondo {
+    height: 400px;
+    background: red url('https://www.redaccionmedica.com/images/destacados/coronavirus-gatos-perros-anticuerpos-reinfeccion-vacuna-covid--2116.jpg') no-repeat left top fixed;
+    background-size: cover;
+}
 
-.box {
+/* .box {
     background-color: white;
     padding: 12px 20px;
     border-radius: 4px;
@@ -38,7 +43,7 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing:border-box;
-}
+} */
 
 /* .dropdown-btn {
     background-color: #4caf50;
