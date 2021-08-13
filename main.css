@@ -2,8 +2,78 @@ body {
     background-color: #eee;
 }
 
-
 .box {
+    background-color: white;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+    margin: 10px 15px;
+    width: 200px;
+    padding: 10px 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+
+.red{
+border-left: solid 2px red;
+}
+.red :hover {
+    transform: scale(1.05, 1.05);
+}
+
+.green{
+border-left: solid 2px green;
+}
+.green :hover{
+box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+}
+
+
+.blue {
+border-left: solid 2px blue;
+}
+.blue :hover{
+  background-color: #eef;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .box {
 position: relative;
 left: 50px;
 top: 50px;
@@ -18,7 +88,7 @@ transition-delay: 0.3s 0.5s;
 .box:hover {
 transform: scale(2.05, 2.05);
 background-color: rgba(0,0,0,0.1);
-}
+} */
 
 
 
@@ -39,14 +109,14 @@ background-color: rgba(0,0,0,0.1);
     background-size: cover;
 } */
 
-/* .box {
+/* /* .box {
     background-color: white;
     padding: 12px 20px;
     border-radius: 4px;
     box-shadow: 2px 2px 2px rgba(0,0,0,0,1);
-}
+} */
 
-input[type=text] {
+/* input[type=text] {
     width: 100%;
     padding: 20px 30px;
     margin:8px 0;
@@ -75,7 +145,7 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing:border-box;
-} */
+} */ */
 
 /* .dropdown-btn {
     background-color: #4caf50;
