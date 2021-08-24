@@ -3,15 +3,50 @@ body {
 }
 
 
-.Grid { 
+.grid {
+    display: grid;
+    grid-template-areas:"header header" 
+                        "content sidebar"
+                        "footer footer"; 
+grid-template-rows: 150px 1fr 100px;
+grid-template-columns: 1fr 200px;                             
+}
+
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+/* .element { */
+    /* background-color: red; */
+
+
+.header {
+    grid-column: col-inicio / col-fin 3;
+    grid-row: row-inicio / row-fin 3;
+}
+
+
+
+
+/* .Grid { 
     display:grid;       
-    grid-template-rows: minmax(100px,auto);
-    grid-template-columns: minmax(auto,50%);
+    grid-template-rows:[row-1-inicio] 50px [row-2-inicio] 50px;
+    grid-template-columns: [col-1-inicio] 1fr [col-2start] 1fr [col-3-start] 1fr;
+    grid-gap:15px; 
 }
 
 .element {
     background-color: red;
 }
+
+
+.header {
+grid-column: 1 / 6;
+grid-row: 1 / 3;
+
+} */
 
 
 
