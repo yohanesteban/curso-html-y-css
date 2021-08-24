@@ -3,13 +3,25 @@ body {
 }
 
 
-.grid {
+.Grid {
+ display: grid;
+ width: 100%;
+ grid-template-columns: repeat(4, 50px);
+ grid-template-rows: repeat(4,50px);
+ grid-gap: 5px;
+ justify-content:space-evenly;
+ 
+ 
+ 
+    /* background-color: red;
     display: grid;
     grid-template-areas:"header header" 
                         "content sidebar"
                         "footer footer"; 
 grid-template-rows: 150px 1fr 100px;
-grid-template-columns: 1fr 200px;                             
+grid-template-columns: 1fr 200px;  
+grid-auto-rows:140px;  
+justify-content: end    ;                          */
 }
 
 .red {
