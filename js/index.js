@@ -122,23 +122,42 @@
 // iterar(numeros)
 
 
-function suma(a, b) {
-    return a + b;
-}
+// function suma(a, b) {
+//     return a + b;
+// }
 
-const resultadosuma1 = suma(1,2)
-const resultadosuma2 = suma(5,6)
-const resultadosuma3 = suma(resultadosuma1,resultadosuma2)
-console.log('resultado',resultadosuma3);
+// const resultadosuma1 = suma(1,2)
+// const resultadosuma2 = suma(5,6)
+// const resultadosuma3 = suma(resultadosuma1,resultadosuma2)
+// console.log('resultado',resultadosuma3);
 
 
-function sumar(a,b,cb) {
-const r = a + b
-cb(r)
-}
+ function sumar(a,b,cb) {
+ const r = a + b
+ cb(r)
+ }
 
 function callback(result) {
     console.log('resultado', result)
-}
+ }
 
-sumar(2,3,callback)
+// sumar(2,3,callback)
+
+// Primera foorma de llamar arrowfunction
+// const mifatarrowfunction = (a,b) => a + b 
+// const r = mifatarrowfunction(1,2)
+// console.log(r)
+// segunda forma
+const fatArrowfunctions = (a,b) => a + b
+const otraFAF = (a,b) => {
+    return a + b
+}
+const r = otraFAF (1,2)
+console.log(r);
+
+// funciones anonimas
+
+
+sumar(2,3,function (r) {
+console.log('soy una funcion anonima y mi resultado es', r)
+})
